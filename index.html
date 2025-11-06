@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Monarch model college, Kaylad private school">
+   <meta name="description" content="Monarch Model College is a forward-thinking school committed to academic excellence, moral integrity and preparing students for future success.">
+   <meta name="keywords" content="school,kaylad, secondary school, primary school, ibadan, challenge">
+    <title>MONARCH MODEL COLLEGE</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+     <link href="./dist/output.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+          <div class="logo">
+           <img src="Images\logo.jpeg" style="border-radius: 50%; object-fit: cover; width: 80px;" alt="logo"> MONARCH
+            <p> MODEL COLLEGE </p>
+          </div>
+          <div class="nav-links">
+            <a href="about.html">About</a>
+            <a href="#academics">Academics</a>
+            <a href="admissions.html">Admissions</a>
+            <a href="#contact">Contact</a>
+            <a href="kaps.html">KAPS</a>
+        </div>
+          <div id="mobile-menu">☰</div>
+        </nav>
+      </header>
+      
+      <div class="marquee-container">
+        <div class="marquee-content">
+          🎓 Admission is currently in progress for the 2025/2026 Academic Session! | 🏆 Champions in STAN Mathematics Competition Competition - LG Level |📚 100% University Acceptance Rate for Class of 2025
+    
+        </div>
+      </div>
+      <section class="hero">
+        <div class="hero-content">
+        <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 1.8rem; margin-top: 30px;">WELCOME TO </p> 
+        <h1 class="hero-title">
+          <span class="title-main">MONARCH</span>
+          <span class="subtitle">MODEL COLLEGE</span>
+          <p style="margin-top: 20px;">... a community of Kings and Queens</p>
+          <a href="admissions.html" class="btn"> ENROLL NOW </a> 
+        </div>
+      </section>
+      
+      <section class="features">
+        <h2 style="text-align: center">Why Choose Us?</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">📚</div>
+            <h3>Excellence in Education</h3>
+            <p>Comprehensive curriculum designed to challenge and inspire students</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🎨</div>
+            <h3>Arts & Culture</h3>
+            <p>Rich programs in visual arts, music, theater, and cultural studies</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🏆</div>
+            <h3>Sports & Athletics</h3>
+            <p>State-of-the-art facilities and championship-winning teams</p>
+          </div>
+          <div class="feature-card" style="display: none;">
+            <div class="feature-icon">🌍</div>
+            <h3>Global Perspective</h3>
+            <p>International exchange programs and diverse student community</p>
+          </div>
+        </div>
+      </section>
+      
+      <div id="academics" class="page-content" >
+        <h2>Academic Achievements</h2>
+        
+        <div class="achievements-grid">
+          <div class="achievement-card">
+            <div class="stat-number">97%</div>
+            <h3>University Acceptance Rate</h3>
+            <p>Our graduates have been accepted to prestigious universities nationwide</p>
+          </div>
+          
+          <div class="achievement-card" style="display: none;">
+            <div class="stat-number">15</div>
+            <h3>National Merit Scholars</h3>
+            <p>Class of 2023 produced 15 National Merit Scholars</p>
+          </div> 
+          
+          <div class="achievement-card">
+            <div class="stat-number">95%</div>
+            <h3>WAEC Exam Pass Rate</h3>
+            <p>Students have 5 credits and above in WAEC exams</p>
+          </div>
+          
+          <div class="achievement-card">
+            <div class="stat-number">15+</div>
+            <h3>Academic Programs</h3>
+            <p>Offering diverse range of subjects and specialized courses</p>
+          </div>
+        </div>
+      </div>
+      <h1 style="color: rgb(1, 1, 36); margin-top: 3rem; text-align: center; font-family: 'Times New Roman'; text-shadow: 1.5px 1px aquamarine; margin-bottom: 2rem;">THE PICTURE BOARD</h1>
+
+    <div class="slideshow-wrapper">
+        <button class="prev" onclick="changeSlide(-1)">&#10094; Previous</button>
+        
+        <div class="slideshow-container">
+            <img id="slideshow-image" src="Images/ST1.jpeg" alt="Slideshow Image">
+        </div>
+
+        <button class="next" onclick="changeSlide(1)">Next &#10095;</button>
+      </div>
+  
+      <div class="page-content" id="contact">
+        <h2>Contact Us</h2>
+        
+        <div class="contact-info">
+          <div class="contact-card">
+            <h3>Main Office</h3>
+            <p>📍 Plots 86 & 87, Bolarinwa Street, Behind ECWA Church,<br> Challenge, Ibadan, Oyo State.</p>
+            <p>📞 <a href="tel: +2348069799661">+234 806 979 9661</a></p>
+            <p>✉️ <a href="email:info@monarchmodelcollege.com">IMMC.COM</a></p>
+          </div>
+          
+          <div class="contact-card">
+            <h3>Office Hours</h3>
+            <p>Monday - Friday: 8:00 AM - 4:30 PM</p>
+            <p>Saturday: 10:00 AM - 2:00 PM</p>
+            <p>Sunday: Closed</p>
+          </div>
+        </div>
+        
+        <form id="myForm" class="contact-form" action="https://formspree.io/f/myzbwqgk" method="post">
+          <h2>Send us a Message</h2>
+          
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="your name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="example@this.com" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" required></textarea>
+          </div>
+          <div class="btncnt">
+          <button type="submit" class="submit-btn" style="font-family: helvetica;">Send Message</button>
+          </div>
+        </form>
+        <div id="thankYouPopup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 20px; border: 1px solid rgb(1, 1, 36);">
+                    <h2>Thank You! 🎉</h2>
+                    <p>Your message has been sent successfully.</p>
+                    <button onclick="document.getElementById('thankYouPopup').style.display='none'">Close</button>
+        </div>
+
+        <div class="map-container">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.016598297791!2d3.873316671968531!3d7.352031896775831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398d95a4e4ea23%3A0xbbc7958b88f1db05!2sMonarch%20Model%20College!5e0!3m2!1sen!2sng!4v1760092862553!5m2!1sen!2sng" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+    <p> <a href="#" style="text-decoration: none;">Back to Top</a></p>
+    <hr>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 MMC. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/share/1686wsus2Y/?mibextid=wwXIfr">Facebook</a></li>
+                <li><a href="https://wa.me/2348069799661">Whatsapp</a></li>
+                <li><a href="https://www.instagram.com/monarch.model.college?igsh=MWkxbWt0ejJhYm9kMw%3D%3D&utm_source=qr">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+
+          <script>
+      document.getElementById('mobile-menu').addEventListener('click', function() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('active');
+      });
+      
+      // Smooth scroll functionality
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+      
+      // Animation on scroll
+      window.addEventListener('scroll', function() {
+        const features = document.querySelectorAll('.feature-card');
+        features.forEach(feature => {
+          const position = feature.getBoundingClientRect();
+          if(position.top < window.innerHeight) {
+            feature.style.opacity = '1';
+          }
+        });
+      });
+      
+      // Additional marquee functionality
+      const marqueeContent = document.querySelector('.marquee-content');
+      marqueeContent.addEventListener('mouseover', function() {
+        this.style.animationPlayState = 'paused';
+      });
+      
+      marqueeContent.addEventListener('mouseout', function() {
+        this.style.animationPlayState = 'running';
+      });
+      document.addEventListener('DOMContentLoaded', function() {
+  }) ;
+      window.addEventListener("scroll", () => {
+        const navlinks = document.querySelector (".nav");
+        if (window.scrollY >50) {
+          navlinks.classList.add("scrolled");
+        } else {
+          navlinks.classList.remove("scrolled")
+        }
+      });
+      // List of all your image file paths
+const images = [
+    "Images/ST1.jpeg",
+    "Images/ST2.jpeg",
+    "Images/ST3.jpeg",
+    "Images/ST4.jpeg",
+    "Images/ST5.jpeg",
+    "Images/ST6.jpeg",
+    "Images/ST7.jpeg"
+];
+let currentImageIndex = 0; // Start with the first image (index 0)
+const imageElement = document.getElementById('slideshow-image');
+// Function to update the displayed image
+function updateImage() {
+    imageElement.src = images[currentImageIndex];
+}
+
+// Function called by the Next/Previous buttons
+function changeSlide(step) {
+    // 1. Calculate the new index
+    let newIndex = currentImageIndex + step;
+    
+    // 2. Handle wrapping (looping) at the ends of the array
+    if (newIndex >= images.length) {
+        newIndex = 0; // Wrap to the first image
+    } else if (newIndex < 0) {
+        newIndex = images.length - 1; // Wrap to the last image
+    }
+    
+    // 3. Update the index and the image
+    currentImageIndex = newIndex;
+    updateImage();
+}
+
+// Initial display of the first image
+updateImage();
+
+ document.getElementById('myForm').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  
+  // Show loading state (optional)
+  const submitBtn = this.querySelector('button[type="submit"]');
+  submitBtn.textContent = 'Sending...';
+  submitBtn.disabled = true;
+  
+  try {
+    const response = await fetch(this.action, {
+      method: 'POST',
+      body: new FormData(this),
+      headers: {
+        'Accept': 'application/json'
+      }
+    });
+    
+    if (response.ok) {
+      // Show thank you popup
+      document.getElementById('thankYouPopup').style.display = 'block';
+      // Reset form
+      this.reset();
+    } else {
+      alert('There was an error sending your message. Please try again.');
+    }
+  } catch (error) {
+    alert('There was an error sending your message. Please try again.');
+  } finally {
+    // Reset button state
+    submitBtn.textContent = 'Send Message';
+    submitBtn.disabled = false;
+  }
+});
+    
+      </script>
+
+</body>
+</html>
