@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "postcss ./src/input.css -o ./dist/output.css --minify",
-    "watch": "postcss ./src/input.css -o ./dist/output.css --watch"
-  },
+  "build": "tailwindcss -i ./src/kaps-input.css -o ./dist/kaps-output.css --minify",
+  "watch": "tailwindcss -i ./src/kaps-input.css -o ./dist/kaps-output.css --watch"
+},
   "devDependencies": {
     "@tailwindcss/postcss": "^4.0.0"
   }
