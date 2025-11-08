@@ -195,6 +195,12 @@
           const navLinks = document.querySelector('.knav-links');
           navLinks.classList.toggle('active');
         });
+            document.querySelectorAll('.knav-links a').forEach(link => {
+  link.addEventListener('click', function() {
+    const navLinks = document.querySelector('.knav-links');
+    navLinks.classList.remove('active');
+  });
+});
         
         // Smooth scroll functionality
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
