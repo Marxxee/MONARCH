@@ -6,6 +6,10 @@
   --font-sans: 'Inter', sans-serif;
   --font-poppins: 'Poppins', sans-serif;
 }
-
+@layer base {
+  body {
+    @apply text-base;
+  }
+}
 /* Only scan kaps.html for Tailwind classes */
 @source "../kaps.html";
